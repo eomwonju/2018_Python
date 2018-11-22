@@ -1,0 +1,13 @@
+kor1=int(input())
+eng1=int(input())
+math1=int(input())
+kor2=int(input())
+eng2=int(input())
+math2=int(input())
+kor3=int(input())
+eng3=int(input())
+math3=int(input())
+grade=[[kor1,eng1,math1],[kor2,eng2,math2],[kor3,eng3,math3]]
+number=int(input())-1
+grade[number].sort()
+print(grade[number],max(grade[number]),min(grade[number]))

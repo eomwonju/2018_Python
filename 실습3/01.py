@@ -1,0 +1,5 @@
+key1=set((','.join(input())).split(','))
+key2=set((','.join(input())).split(','))
+Key=list((key1.union(key2))-key1.intersection(key2))
+Key.sort()
+print(Key)
